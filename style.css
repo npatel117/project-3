@@ -1,0 +1,86 @@
+/*HTML*/
+html {
+			min-width: 1000px;
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for Links*/
+.nav {
+  padding-bottom: 10px;
+  width:269px;
+  position:relative;
+  left:35%;
+}
+
+ .nav ul {
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: inline-block;
+    font-size: 1em;
+    color: black;
+    text-align: center; 
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #bfbfbf;
+    
+}
+/*------------------------------------------------------------------------------------*/
+/*CSS for all three webpages*/
+
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    border-top-style: none;
+	color: #000000;
+}
+
+h2{
+    font-family: "Times New Roman", Times, serif;
+    border-top-style: none;
+	color: #990000;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+	color: #000000;
+
+}
+
+ul{
+	color: #000000;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*CSS for Images and videos*/
+img {
+    border-radius: 10px;
+	margin-left: 40px;
+
+}
+iframe{
+	float: left;
+	margin-left: 40px;
+}
+/*------------------------------------------------------------------------------------*/
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
