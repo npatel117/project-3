@@ -58,6 +58,11 @@ height: 822px;
 float: center;
 }
 
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
 </style>
 <body bgcolor="#000000">
 
