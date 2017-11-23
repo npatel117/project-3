@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Photos</title>
+</head>
+
+<body bgcolor="#000000">
+
+<nav class="nav1">
+
+		<ul>
+			<li><a href="index.html">About Me</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="travel.html">Traveling</a></li>
+  	  </ul>
+    </nav>
+
+<div class="mySlides">
+  <img id = "image4" src="IMG_5572.JPG">
+  	<h2 id = "h64" style="font-size:40px;">Alaska</h2>
+</div>
+
+<div class="mySlides">
+  <img id = "image1" src="IMG_5592.JPG">
+  <h2 id = "h61" style="font-size:38px;">Glacier Bay National Park</h2>
+</div>
+
+<div class="mySlides">
+  <img id = "image2" src="IMG_5305.JPG">
+  	<h2 id = "h62" style="font-size:38px;">Juneau</h2>
+</div>
+
+<div class="mySlides">
+  <img id = "image4" src="IMG_5636.JPG">
+   	<h2 id = "h62" style="font-size:38px;">Hobart Bay</h2>
+</div>
+
+<div class="mySlides">
+  <img id = "image4" src="IMG_5624.JPG">
+</div>
+
+<div class="video">
+<h3>TimeLapse</h3>
+		<iframe id = "video1" src="https://www.youtube.com/embed/vs0G0pxoSJo"></iframe>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+
+</script>
+
+</body>
+</html>
