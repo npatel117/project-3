@@ -76,27 +76,27 @@ float: center;
     </nav>
 
 <div class="mySlides">
-  <img id = "image4" src="images/alaska">
+  <img id = "image4" src="images/alaska.jpg">
   	<h2 id = "h64" style="font-size:40px;">Alaska</h2>
 </div>
 
 <div class="mySlides">
-  <img id = "image1" src="images/glacier">
+  <img id = "image1" src="images/glacier.jpg">
   <h2 id = "h61" style="font-size:38px;">Glacier Bay National Park</h2>
 </div>
 
 <div class="mySlides">
-  <img id = "image2" src="images/jun">
+  <img id = "image2" src="images/jun.jpg">
   	<h2 id = "h62" style="font-size:38px;">Juneau</h2>
 </div>
 
 <div class="mySlides">
-  <img id = "image4" src="images/hob">
+  <img id = "image4" src="images/hob.jpg">
    	<h2 id = "h62" style="font-size:38px;">Hobart Bay</h2>
 </div>
 
 <div class="mySlides">
-  <img id = "image4" src="images/star">
+  <img id = "image4" src="images/star.jpg">
 </div>
 
 <div class="video">
