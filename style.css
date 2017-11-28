@@ -6,7 +6,7 @@ html {
 /*CSS for Links*/
 .nav {
   padding-bottom: 10px;
-  width:269px;
+  width:250px;
   position:relative;
   left:35%;
 }
@@ -29,7 +29,7 @@ html {
     font-size: 1em;
     color: black;
     text-align: center; 
-    padding: 13px 13px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 
