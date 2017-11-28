@@ -6,17 +6,18 @@ html {
 /*CSS for Links*/
 .nav {
 	padding-bottom: 10px;
-	width:428px;
+	width:315px;
 	position:relative;
 	left:35%;
 }
 
  .nav ul {
     list-style-type: none;
+    color: black;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #196dff;
+    background-color: #ffffff;
 }
 
 .nav li {
@@ -29,6 +30,7 @@ html {
     color: black;
     text-align: center; 
     padding: 15px 15px;
+    text-decoration: none;
 }
 
 .nav li a:hover {
