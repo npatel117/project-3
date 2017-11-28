@@ -5,19 +5,18 @@ html {
 /*------------------------------------------------------------------------------------*/
 /*CSS for Links*/
 .nav {
-  padding-bottom: 10px;
-  width:269px;
-  position:relative;
-  left:35%;
+	padding-bottom: 10px;
+	width:428px;
+	position:relative;
+	left:35%;
 }
 
  .nav ul {
     list-style-type: none;
-    color: black;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #196dff;
 }
 
 .nav li {
@@ -26,11 +25,10 @@ html {
 
 .nav li a {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 1em;
     color: black;
     text-align: center; 
-    padding: 10px 10px;
-    text-decoration: none;
+    padding: 15px 15px;
 }
 
 .nav li a:hover {
