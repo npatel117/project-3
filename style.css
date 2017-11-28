@@ -6,7 +6,7 @@ html {
 /*CSS for Links*/
 .nav {
   padding-bottom: 10px;
-  width:250px;
+  width:269px;
   position:relative;
   left:35%;
 }
@@ -26,10 +26,10 @@ html {
 
 .nav li a {
     display: inline-block;
-    font-size: 1em;
+    font-size: 0.5em;
     color: black;
     text-align: center; 
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
