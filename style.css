@@ -6,7 +6,7 @@ html {
 /*CSS for Links*/
 .nav {
   padding-bottom: 10px;
-  width:269px;
+  width: 315px;
   position:relative;
   left:35%;
 }
@@ -26,7 +26,7 @@ html {
 
 .nav li a {
     display: inline-block;
-    font-size: 0.2em;
+    font-size: 1em;
     color: black;
     text-align: center; 
     padding: 15px 15px;
@@ -69,6 +69,17 @@ ul{
 
 /*------------------------------------------------------------------------------------*/
 /*CSS for Images and videos*/
+
+img {
+   border-radius: 2px;
+   margin-left: 3px;
+ }
+ 
+ iframe{
+ 	margin-left: 3px;
+ 	float: left;
+  }
+  
 .mySlides {display:none;}
 
 #image1{
