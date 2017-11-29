@@ -51,7 +51,7 @@ h1{
 	color: #000000;
 }
 
-h2{
+h3{
     font-family: "Times New Roman", Times, serif;
     border-top-style: none;
 	color: #990000;
@@ -107,8 +107,6 @@ img {
 	height: 822px;
 	float: left;
 }
-
-.video {display: none;}
 
 #video1{
 	width: 1423px;
