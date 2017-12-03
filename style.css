@@ -125,6 +125,20 @@ ol.b {
     margin-left: 10px;
 }
 
+/*------------------------------------------------------------------------------------*/
+/*CSS for Resume*/
+
+div.resume h3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 130%;
+	border-style: solid;
+	color: #990000;
+	text-align: left;
+		padding-top: 10px;
+ 		padding-right: 0px;
+   		padding-bottom: 10px;
+   		padding-left: 0px;
+}
 
 /*------------------------------------------------------------------------------------*/
 /*CSS for Images and videos*/
