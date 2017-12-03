@@ -107,14 +107,20 @@ ul.a {
 ul.c {
     list-style-type: square;
     color: #000000;
-    padding: 20px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     line-height: 150%;
 }
 
 ol.b {
     list-style-type: upper-roman;
     color: #000000;
-    padding: 20px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     line-height: 150%;
     margin-left: 10px;
 }
