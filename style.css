@@ -31,14 +31,14 @@ html {
   text-align:center;
   background-color: #bfbfbf;
   overflow: hidden;
-  list-style: none;
-  width: 100%;
-  margin: 0;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
  .nav ul {
     list-style-type: none;
-    color: black;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -52,15 +52,14 @@ html {
 .nav li a {
     display: inline-block;
     font-size: 1em;
-    color: black;
+    color: white;
     text-align: center; 
     padding: 15px 15px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: #bfbfbf;
-    
+    background-color: #380;
 }
 /*------------------------------------------------------------------------------------*/
 /*CSS for three webpages*/
