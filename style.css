@@ -34,12 +34,23 @@ html {
 	padding: 0;
 	width: 100%;
 }
+
 .nav li {
 	display:inline;
 }
+
 .nav a {
 	text-decoration:none; 
-	padding:0 30px; /* variable width */
+	padding:0 30px;
+	text-align:center;
+}
+.nav li a {
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    text-align: center; 
+    padding: 15px 15px;
+    text-decoration: none;
 }
 
 .nav li a:hover {
