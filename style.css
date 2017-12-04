@@ -28,21 +28,23 @@ html {
 /*------------------------------------------------------------------------------------*/
 /*CSS for Links*/
 .nav {
-text-align:center;
+	text-align:center;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 .nav li {
-display:inline;
+	display:inline;
 }
 .nav a {
-text-decoration:none; 
-padding:0 30px; /* variable width */
+	text-decoration:none; 
+	padding:0 30px; /* variable width */
 }
 
 .nav li a:hover {
     background-color: #380;
-}
-.nav li a:hover {
-    background-color: #380;
+    
 }
 /*------------------------------------------------------------------------------------*/
 /*CSS for three webpages*/
