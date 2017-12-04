@@ -28,36 +28,19 @@ html {
 /*------------------------------------------------------------------------------------*/
 /*CSS for Links*/
 .nav {
-  text-align:center;
-  background-color: #bfbfbf;
-  overflow: hidden;
-	list-style: none;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+text-align:center;
 }
-
- .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-}
-
 .nav li {
-    float: left;
+display:inline;
+}
+.nav a {
+text-decoration:none; 
+padding:0 30px; /* variable width */
 }
 
-.nav li a {
-    display: inline-block;
-    font-size: 1em;
-    color: white;
-    text-align: center; 
-    padding: 15px 15px;
-    text-decoration: none;
+.nav li a:hover {
+    background-color: #380;
 }
-
 .nav li a:hover {
     background-color: #380;
 }
