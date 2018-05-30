@@ -35,6 +35,7 @@ html {
 	width: 100%;
 	border: 2px solid red;
         border-radius: 5px;
+	width: 350px;
 }
 
 .nav li {
@@ -53,7 +54,6 @@ html {
     text-align: center; 
     padding: 15px 15px;
     text-decoration: none;
-    width: 350px;
 }
 
 .nav li a:hover {
